@@ -20,7 +20,7 @@ Clone this repository. Then, create a virtual environment and install dependenci
 
 - For training or generation, start from the `Driver` directory. Please change the directory names within according to your system or workflow. 
 - The `Config` directory provides example configuration files to train with unconditional and conditional models, and sample (generate) with 4 guided diffusion models.
-- The `Weights` directory contains pre-trained weights for super-resolution of forced quasi-geostrophic turbulence in the eddy ($\beta = 0$) and jet ($\beta > 0$) regimes at two Reynolds numbers ($10^3, 10^4$) with coarse-resolution fields and coarse, sparse and gappy (partial) observations.
+- The `Weights` directory contains pre-trained weights for super-resolution of forced quasi-geostrophic turbulence in the eddy ($\beta = 0$) and jet ($\beta > 0$) regimes at two Reynolds numbers ($10^3, 10^4$) with coarse-resolution fields and coarse, sparse and gappy (partial) observations. See Datasets (below) for a complete list of data and testcases.
 
 ### Datasets
 
