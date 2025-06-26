@@ -1,6 +1,6 @@
 # Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence
 
-![alt text](image.png)
+![alt text](img/test_cases.png)
 
 This repository is associated with our paper, ["Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence"](Arxiv). It contains trained weights and codes for training and generation with two guided unconditional models ([SDEdit](https://arxiv.org/abs/2108.01073), [Diffusion Posterior Sampling](https://arxiv.org/abs/2209.14687)), and two conditional models w/ and w/o [Classifier-Free Guidance](https://arxiv.org/abs/2207.12598).
 ---
