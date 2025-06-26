@@ -1,0 +1,18 @@
+#!/bin/sh
+#$ -cwd
+#$ -V
+#$ -j y
+#$ -o ../../Results/Logs/TrainJob$JOB_ID.log
+#$ -S /bin/sh
+#$ -l h_core=0
+#$ -q ibgpu.q
+#$ -l gpu=1
+#$ -M ananthsb@mit.edu
+#$ -m ea
+
+runnum=$1
+gennum=$2
+
+ls /tmp/lock-gpu*
+
+python -u driver_diff_gen.py --run_num "${runnum}" --gen_num "${gennum}" > "../../Results/Logs/TrainJob$JOB_ID.log"

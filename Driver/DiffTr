@@ -1,0 +1,17 @@
+#!/bin/sh
+#$ -cwd
+#$ -V
+#$ -j y
+#$ -o ../../Results/Logs/TrainJob$JOB_ID.log
+#$ -S /bin/sh
+#$ -l h_core=0
+#$ -q ibgpu.q
+#$ -l gpu=1
+#$ -M ananthsb@mit.edu
+#$ -m ea
+
+runnum=$1
+
+ls /tmp/lock-gpu*
+
+python -u driver_diff_train.py --run_num "${runnum}" > "../../Results/Logs/TrainJob$JOB_ID.log"
