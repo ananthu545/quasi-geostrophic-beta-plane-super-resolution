@@ -1,8 +1,9 @@
 # Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence
 
-![alt text](img/test_cases.png)
+![alt text](img/test_cases.png)  
 
-This repository is associated with our paper, ["Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence"](Arxiv). It contains trained weights and codes for training and generation with two guided unconditional models ([SDEdit](https://arxiv.org/abs/2108.01073), [Diffusion Posterior Sampling](https://arxiv.org/abs/2209.14687)), and two conditional models w/ and w/o [Classifier-Free Guidance](https://arxiv.org/abs/2207.12598).
+This repository is associated with our paper, ["Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence"](arxiv). It contains trained weights and codes for training and generation with two guided unconditional models ([SDEdit](https://arxiv.org/abs/2108.01073), [Diffusion Posterior Sampling](https://arxiv.org/abs/2209.14687)), and two conditional models with and without [Classifier-Free Guidance](https://arxiv.org/abs/2207.12598).  
+
 ---
 ## Installation
 
@@ -17,11 +18,11 @@ Clone this repository. Then, create a virtual environment and install dependenci
 
 Quasi-geostrophic simulations and data associated with this code can be downloaded [here](https://zenodo.org/records/15742146).
 
-For training or generation, start from the Driver/ directory. Please change the directory names within according to your workflow. 
+For training or generation, start from the `Driver` directory. Please change the directory names within according to your workflow. 
 
-The Config/ directory provides example configuration files to train with unconditional and conditional models, and sample (generate) with 4 guided diffusion models.
+The `Config` directory provides example configuration files to train with unconditional and conditional models, and sample (generate) with 4 guided diffusion models.
 
-The Weights/ directory contains pre-trained weights for super-resolution of forced quasi-geostrophic turbulence in the eddy (beta = 0) and jet (beta > 0) regimes at two Reynolds numbers (10<sup>3</sup>, 10<sup>4</sup>) with coarse-resolution fields and coarse, sparse and gappy (partial) observations.
+The `Weights` directory contains pre-trained weights for super-resolution of forced quasi-geostrophic turbulence in the eddy (beta = 0) and jet (beta > 0) regimes at two Reynolds numbers (10<sup>3</sup>, 10<sup>4</sup>) with coarse-resolution fields and coarse, sparse and gappy (partial) observations.
 
 ## Citing This Work
 
