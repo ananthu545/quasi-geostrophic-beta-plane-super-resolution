@@ -57,13 +57,24 @@ Clone this repository. Then, create a virtual environment and install dependenci
 If you use find this work interesting, please cite our paper, codes, or dataset:
 
 ```bibtex
-@Misc{suresh_babu_et_al_2025,
+@Misc{suresh_babu_et_al_2025a,
   author =	 {Suresh Babu, Anantha Narayanan and Sadam, Akhil and Lermusiaux, Pierre F. J.},
   title =	 {Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence [{D}ataset]},
   month =	 jun,
   year =	 2025,
   doi = {10.5281/zenodo.15742146},
-  howpublished = {Zenodo},
+  howpublished = {Zenodo}
+}
+```
+
+```bibtex
+@Misc{suresh_babu_et_al_2025b,
+  author =	 {Suresh Babu, Anantha Narayanan and Sadam, Akhil and Lermusiaux, Pierre F. J.},
+  title =	 {Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence [{S}oftware]},
+  month =	 jun,
+  year =	 2025,
+  doi = {10.5281/zenodo.15750244},
+  howpublished = {Zenodo}
 }
 ```
 ---
