@@ -57,6 +57,18 @@ Clone this repository. Then, create a virtual environment and install dependenci
 If you use find this work interesting, please cite our paper, codes, or dataset:
 
 ```bibtex
+@Article{suresh_babu_et_al_JAMES2025,
+  author =	 {Suresh Babu, Anantha Narayanan and Sadam, Akhil and Lermusiaux,  Pierre F. J.},
+  title =	 {Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence},
+  journal =	 {Journal of Advances in Modeling Earth Systems},
+  month = jul,
+  year =	 2025,
+  note =	 {Sub-judice},
+  doi = {10.48550/arXiv.2507.00719}
+}
+```
+
+```bibtex
 @Misc{suresh_babu_et_al_2025a,
   author =	 {Suresh Babu, Anantha Narayanan and Sadam, Akhil and Lermusiaux, Pierre F. J.},
   title =	 {Guided Unconditional and Conditional Generative Models for Super-Resolution and Inference of Quasi-Geostrophic Turbulence [{D}ataset]},
